@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+	<link rel="icon" href="dsol logo.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="califorbs" >
+
+    <title>Dynamic Solutions</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Montserrat:200,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Plugin CSS -->
+    <link href="magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="freelancer.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <style>
+        .btn3, .btn3:link, .btn3:visited  {
+            margin-bottom: 20px;
+        }
+        
+        .bottoms {
+				bottom: 20px;        
+        }
+        
+        .portfolio-item p {
+				text-align:justify;        
+        }
+        
+        h1 {
+        	padding-top: 1rem;
+        }
+    </style>
+    <script>
+		$(document).ready(function() {
+		  var p = window.location.hash;
+		  if (p == "#services") {
+			if ($(document).width() < 576) {
+			  $("html, body").animate(
+				{
+				  scrollTop: $("#services").offset().top - 50
+				},
+				500
+			  );
+			  window.location.hash = '';
+			} else {
+			  $("html, body").animate(
+				{
+				  scrollTop: $("#services").offset().top - 100
+				},
+				500
+			  );
+			}
+		  }
+		});
+	</script>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="dsol logo1.png" height="50" alt=""></a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="products.html">Products</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="products" id="products">
+        
+    </section>
+
+	<!-- About Section -->
+    <div class="mtop container text-white"><h1>Safety and Security</h1>
+        <h5>The two necessities in life we can help you with.<br /></h5></div>
+    <section class="" id="about">  <!--bg-primary text-white-->
+      <div class="container">
+        
+        <h1 style="margin-bottom: 1.5rem; font-size: 2rem;" id="about2">About Us</h1> 
+        <div class=""> <!--row-->
+          <div class=""> <!--col-lg-4 ml-auto-->
+            <p class="aboutus" style="margin-bottom: 2rem;">Dynamic Solutions specializes in Fire and Security solutions and are
+committed to<span id="service"></span> meet the needs of its customers by providing the means of obtaining safety and security in daily life. We provide a range of products and services that include the supply, design, installation and maintenance of Passive and Active Fire protection, Smoke and Natural Ventilation systems, Fire alarm systems (including detection and control devices) and Security Management Systems that include Access Control, CCTV and other security systems. </p>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+
+      <!-- Page Heading -->
+      <h1 style="margin-bottom: 2rem; font-size: 2rem;">Our Products & Services</h1>
+
+      <div class="row">
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <img class="card-img-top" src="fire alarm front page.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+                Fire Detection System
+              </h4> 
+              <p class="card-text">We supply a full range of Addressable Fire Alarm Systems from simple analogue systems to sophisticated fully Integrated solutions for major buildings and installations. Our products are approved to international standards, including UL (United States) and LPCB (United Kingdom), and by the Civil Defence and Fire Directorate of the Ministry of Interior. </p>
+              <a href="products.html#fds" class="btn3 text-center">view products</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <img class="card-img-top" src="image2123.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+                Fire Suppression System
+              </h4> 
+              <p class="card-text">We supply a full range of Addressable One Alarm Systems from simple analogue systems to sophisticated to integrated solutions for major buildings and installations. Our products are approved to international standards, including UL (US), LPCB (UK) and by the Civil Defence and Fire Directorate of the Ministry of Interior. </p>
+                    <a href="products.html#fss" class="btn3 text-center">view products</a>      
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <img class="card-img-top" src="smoke ventilation front page.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+                Smoke and Natural Ventilation System
+              </h4>
+              <p class="card-text">A well-maintained smoke and natural ventilation system is essential for a secure and safe environment whether its an office space or a home. That's why we provide our customers with a comprehensive range of window activators, with reliable and proven control systems, automatic opening vents, mechanical smoke ventilation systems and powered extract systems.</p>
+              <a href="products.html#smvs" class="btn3 text-center"> view products</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item item4">
+          <div class="card h-100">
+            <img class="card-img-top" src="alarm-black-and-white-danger-37543 (2).jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+                Fire Extinguishers
+              </h4> 
+              <p class="card-text">All fire extinguishers, including water, foam, powder and CO<sub>2</sub> fire extinguishers, supplied by Alpha are certified to international standards and approved for use by the Civil Defence and Fire Directorate of the Ministry of interior. Our engineers are trained to ensure that the equipment is fitted in the correct location and is ready for action.</p>
+               <a href="products.html#fireExt" class="btn3 text-center">view products</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item item4">
+          <div class="card h-100">
+            <img class="card-img-top" src="image1972.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">
+                Security Management System
+              </h4> 
+              <p class="card-text">Any environment is lacking with regards to safety and security when they lack the basic products and services connected with a proper security management system. Hence, we provide Security Management Systems Access Control / biometric systems, Site Access Barters, Time & Attendance Systems, CCTV with Perimeter protection, Intrusion Detection and Alarm Systems, Long Range Sirens, Vehicle Tracking and Security Service Support, Guard Tour System, Metal Detectors (hand held and pass through). </p>
+               <a href="products.html#sms" class="btn3 text-center">view products</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- /.row -->
+    <a href="products.html" class="btn3 text-center">view all our products</a>
+    </div>
+    </section>
+	<!-- Footer -->
+    <footer class="footer text-center" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-lg-0 text-center footer1">
+           <h4 class="text-uppercase">Contact</h4>
+            <p class="mb-0">info@dynamicsolutions.com.sa 
+              <br>+966 554 448643</p>
+          </div>
+         
+          
+          
+        </div>
+      </div>
+    </footer>
+
+    
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!--script src="js/jqBootstrapValidation.js"></scrip--t>
+     <!-- Custom scripts for this template -->
+    <script src="freelancer.js"></script>
+   
+    
+
+  </body>
+
+</html>
